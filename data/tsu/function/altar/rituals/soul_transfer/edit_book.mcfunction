@@ -1,4 +1,3 @@
-say 1
 $execute store result score temp tsu.globaldata run function tsu:altar/rituals/soul_transfer/select_text_type {soul1:$(soul1),soul2:$(soul2),soul3:$(soul3)}
 $execute if score temp tsu.globaldata matches 1 run return run data modify entity @s Item.components.minecraft:written_book_content set value {pages:[{raw:'"$(soul2), ты шо гений? на нафига себе же свою душу передаёшь? Думал сможешь перехитрить систему?"'}],author:"Бан",title:{raw:'Еврейские махинации'}}
 $execute if score temp tsu.globaldata matches 2 run return run data modify entity @s Item.components.minecraft:written_book_content set value {pages:[{raw:'"Душа игрока $(soul1) была возвращена игроком $(soul2)"'},{raw:'"$(item_info)"'}],author:"???",title:{raw:'Договор передачи души'}}
