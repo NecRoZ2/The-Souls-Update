@@ -1,0 +1,2 @@
+data modify entity @e[tag=Ritual_circle,distance=..6,limit=1] data.soul1 set from entity @s Item.components.minecraft:written_book_content.author
+data modify entity @e[tag=Ritual_circle,distance=..6,limit=1] data.item_info set string entity @s Item.components.minecraft:written_book_content.pages[0].raw

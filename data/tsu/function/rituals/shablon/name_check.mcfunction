@@ -1,0 +1,1 @@
+return run function tsu:rituals/shablon/name_check2 with entity @s data

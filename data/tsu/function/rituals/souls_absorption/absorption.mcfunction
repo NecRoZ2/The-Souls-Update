@@ -1,0 +1,1 @@
+$scoreboard players remove $(player_abs) mana 250 

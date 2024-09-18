@@ -1,0 +1,2 @@
+execute positioned ^ ^1 ^-3 if entity @e[type=item_frame,distance=..1,nbt={Item:{id:"minecraft:paper"}}] run return run function tsu:rituals/scroll_creating with entity @s data
+execute positioned ^1 ^1 ^4 as @e[type=item_frame,distance=..1] at @s run function tsu:rituals/soul_compass/ritual_result with entity @e[tag=Ritual_circle,distance=..6,limit=1] data
