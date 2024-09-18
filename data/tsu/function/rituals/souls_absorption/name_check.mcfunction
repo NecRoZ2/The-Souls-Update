@@ -1,1 +1,0 @@
-return run function tsu:rituals/souls_absorption/name_check2 with entity @s data

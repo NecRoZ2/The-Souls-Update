@@ -1,1 +1,0 @@
-return run function tsu:rituals/ghost_state/name_check2 with entity @s data

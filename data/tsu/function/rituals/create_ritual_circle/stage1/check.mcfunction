@@ -1,2 +1,0 @@
-execute as @e[tag=fire_detect] at @s unless entity @e[tag=Ritual_circle,distance=..45] if block ~ ~ ~ soul_fire run function tsu:rituals/create_ritual_circle/stage1/create_marker
-kill @e[tag=fire_detect]

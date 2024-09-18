@@ -1,0 +1,1 @@
+return run function tsu:altar/rituals/ghost_state/name_check2 with entity @s data

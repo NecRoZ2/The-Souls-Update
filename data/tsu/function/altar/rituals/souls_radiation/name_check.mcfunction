@@ -1,0 +1,1 @@
+return run function tsu:altar/rituals/souls_radiation/name_check2 with entity @s data

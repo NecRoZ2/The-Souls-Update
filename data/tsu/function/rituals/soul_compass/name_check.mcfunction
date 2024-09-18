@@ -1,1 +1,0 @@
-return run function tsu:rituals/soul_compass/name_check2 with entity @s data

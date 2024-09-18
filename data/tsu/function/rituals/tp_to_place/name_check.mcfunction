@@ -1,1 +1,0 @@
-return run function tsu:rituals/tp_to_place/name_check2 with entity @s data

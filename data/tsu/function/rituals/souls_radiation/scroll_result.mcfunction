@@ -1,1 +1,0 @@
-function tsu:rituals/souls_radiation/ritual_result with entity @s Item.components.minecraft:custom_data.data
