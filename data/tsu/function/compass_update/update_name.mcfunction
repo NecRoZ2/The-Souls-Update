@@ -1,1 +1,1 @@
-$data modify storage minecraft:tsu temp.soul set from storage minecraft:tsu players.$(soul).holder
+$data modify storage minecraft:tsu temp.soul set from storage minecraft:tsu players.$(name).holder
