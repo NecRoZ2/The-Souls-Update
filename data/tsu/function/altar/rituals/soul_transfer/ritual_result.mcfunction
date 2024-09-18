@@ -1,4 +1,3 @@
-$say получатель: $(soul1) отправитель: $(soul2) передаваемый: $(soul3)
 $data modify storage minecraft:tsu players.$(soul3).holder set value $(soul1)
 $data modify storage minecraft:tsu players.$(soul1).souls append from storage minecraft:tsu players.$(soul2).souls[{name:$(soul3)}]
 $data remove storage minecraft:tsu players.$(soul2).souls[{name:$(soul3)}]
