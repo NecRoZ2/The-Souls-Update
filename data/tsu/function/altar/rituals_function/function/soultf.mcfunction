@@ -1,0 +1,1 @@
+execute as @e[tag=soultf] at @s run function tsu:altar/rituals_function/function/soultf1

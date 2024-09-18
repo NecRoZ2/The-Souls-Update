@@ -14,4 +14,4 @@ execute positioned ^3 ^1 ^3 as @e[type=item_frame,distance=..1,sort=nearest] at 
 execute positioned ^-3 ^1 ^3 as @e[type=item_frame,distance=..1,sort=nearest] at @s run data modify entity @s Fixed set value 1b
 execute positioned ^3 ^1 ^-3 as @e[type=item_frame,distance=..1,sort=nearest] at @s run data modify entity @s Fixed set value 1b
 execute positioned ^-3 ^1 ^-3 as @e[type=item_frame,distance=..1,sort=nearest] at @s run data modify entity @s Fixed set value 1b
-schedule function tsu:altar/rituals/rituals_function/ritual_effects/soultf 1t
+schedule function tsu:altar/rituals_function/function/soultf 1t

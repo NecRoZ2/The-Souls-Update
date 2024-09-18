@@ -1,8 +1,8 @@
 $execute as $(ritual_creator) run function tsu:math/mana_use {"mana_cost":700}
-execute positioned ^3 ^1 ^3 as @e[type=item_frame,distance=..1] at @s run function tsu:altar/rituals/rituals_function/use_catalyst
-execute positioned ^3 ^1 ^-3 as @e[type=item_frame,distance=..1] at @s run function tsu:altar/rituals/rituals_function/use_catalyst
-execute positioned ^-3 ^1 ^3 as @e[type=item_frame,distance=..1] at @s run function tsu:altar/rituals/rituals_function/use_catalyst
-execute positioned ^-3 ^1 ^-3 as @e[type=item_frame,distance=..1] at @s run function tsu:altar/rituals/rituals_function/use_catalyst
+execute positioned ^3 ^1 ^3 as @e[type=item_frame,distance=..1] at @s run function tsu:altar/rituals_function/function/use_catalyst
+execute positioned ^3 ^1 ^-3 as @e[type=item_frame,distance=..1] at @s run function tsu:altar/rituals_function/function/use_catalyst
+execute positioned ^-3 ^1 ^3 as @e[type=item_frame,distance=..1] at @s run function tsu:altar/rituals_function/function/use_catalyst
+execute positioned ^-3 ^1 ^-3 as @e[type=item_frame,distance=..1] at @s run function tsu:altar/rituals_function/function/use_catalyst
 function tsu:altar/rituals/ghost_state/select_result
 data remove entity @s data.ritual_creator
 data remove entity @s data.soul1
