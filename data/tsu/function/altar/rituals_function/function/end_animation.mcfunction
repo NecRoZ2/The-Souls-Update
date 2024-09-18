@@ -10,5 +10,5 @@ execute positioned ^-3 ^1 ^3 as @e[type=item_frame,distance=..1,sort=nearest] at
 execute positioned ^3 ^1 ^-3 as @e[type=item_frame,distance=..1,sort=nearest] at @s run data modify entity @s Fixed set value 0b
 execute positioned ^-3 ^1 ^-3 as @e[type=item_frame,distance=..1,sort=nearest] at @s run data modify entity @s Fixed set value 0b
 scoreboard players reset @s tsu.anim
-$execute if function tsu:altar/rituals/$(ritual_type)/condition_check if function tsu:altar/$(ritual_type)/name_check run return run function tsu:altar/$(ritual_type)/end with entity @s data
+$execute if function tsu:altar/rituals/$(ritual_type)/condition_check if function tsu:altar/rituals/$(ritual_type)/name_check run return run function tsu:altar/rituals/$(ritual_type)/end with entity @s data
 function tsu:altar/rituals_function/function/fail
