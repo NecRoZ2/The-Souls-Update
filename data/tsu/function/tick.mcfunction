@@ -1,8 +1,6 @@
-scoreboard players add second tsu.globaldata 1
 scoreboard players remove pos_timer tsu.globaldata 1
 execute as @a[scores={ghost_time=1..}] run function tsu:altar/rituals/ghost_state/ghost_timer
 execute if entity @a[nbt={Inventory:[{id:"minecraft:compass",components:{"minecraft:custom_data":{working:true}}}]}] run scoreboard players remove compass_timer tsu.globaldata 1
-execute if score second tsu.globaldata matches 20.. run function tsu:second
 execute if score pos_timer tsu.globaldata matches ..0 run function tsu:cords_update
 execute if score compass_timer tsu.globaldata matches ..0 run function tsu:compass_update/compass_update
 execute as @e[type=item,nbt={Item:{id:"minecraft:echo_shard"}}] at @s unless data entity @s {Fire:-1s} run function tsu:altar/create_ritual_circle/stage1/fire_detect

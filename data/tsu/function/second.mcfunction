@@ -1,4 +1,4 @@
-scoreboard players set second tsu.globaldata 0
+schedule function tsu:second 1s
 scoreboard players add 3second tsu.globaldata 1
 execute if score 3second tsu.globaldata matches 3.. as @a if score @s mana <= @s max_mana run function tsu:mana/base_mana_regeneration
 execute as @a[scores={death=1..}] run function tsu:death

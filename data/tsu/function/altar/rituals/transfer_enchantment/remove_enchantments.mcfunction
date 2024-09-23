@@ -1,0 +1,3 @@
+$execute unless items entity @s container.0 enchanted_book run return run data remove entity @s Item.components.minecraft:enchantments.levels.$(ench)
+$execute if items entity @s container.0 enchanted_book run data remove entity @s Item.components.minecraft:stored_enchantments.levels.$(ench)
+execute unless data entity @s Item.components.minecraft:stored_enchantments run item replace entity @s container.0 with book

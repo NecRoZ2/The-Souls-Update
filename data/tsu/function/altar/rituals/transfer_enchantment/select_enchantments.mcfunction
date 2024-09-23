@@ -1,0 +1,1 @@
+$function tsu:altar/rituals/transfer_enchantment/select_max_lvl with storage enchantments item2[$(random)]

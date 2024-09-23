@@ -1,0 +1,3 @@
+$execute unless items entity @s container.0 #tsu:books run return run data modify entity @s Item.components.minecraft:enchantments.levels.$(ench) set from storage enchantments lvl
+execute if items entity @s container.0 book run item replace entity @s container.0 with enchanted_book
+$execute if items entity @s container.0 enchanted_book run data modify entity @s Item.components.minecraft:stored_enchantments.levels.$(ench) set from storage enchantments lvl

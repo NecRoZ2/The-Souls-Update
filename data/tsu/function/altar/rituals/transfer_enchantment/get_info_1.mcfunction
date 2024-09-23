@@ -1,0 +1,2 @@
+execute if items entity @s container.0 *[!enchantments={}] run data modify storage enchantments item1 set from entity @s Item.components.minecraft:enchantments.levels
+execute if items entity @s container.0 enchanted_book[!enchantments={}] run data modify storage enchantments item1 set from entity @s Item.components.minecraft:stored_enchantments.levels

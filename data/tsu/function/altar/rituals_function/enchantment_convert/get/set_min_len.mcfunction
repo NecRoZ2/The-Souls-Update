@@ -1,0 +1,14 @@
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/14"}]] run return run scoreboard players set #symbol_position enchantments 14
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/15"}]] run return run scoreboard players set #symbol_position enchantments 15
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/16"}]] run return run scoreboard players set #symbol_position enchantments 16
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/17"}]] run return run scoreboard players set #symbol_position enchantments 17
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/18"}]] run return run scoreboard players set #symbol_position enchantments 18
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/19"}]] run return run scoreboard players set #symbol_position enchantments 19
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/20"}]] run return run scoreboard players set #symbol_position enchantments 20
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/21"}]] run return run scoreboard players set #symbol_position enchantments 21
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/22"}]] run return run scoreboard players set #symbol_position enchantments 22
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/23"}]] run return run scoreboard players set #symbol_position enchantments 23
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/25"}]] run return run scoreboard players set #symbol_position enchantments 25
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/26"}]] run return run scoreboard players set #symbol_position enchantments 26
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/28"}]] run return run scoreboard players set #symbol_position enchantments 28
+execute if items entity @s weapon.* *[minecraft:enchantments~[{enchantments:"#tsu:size/31"}]] run return run scoreboard players set #symbol_position enchantments 31
