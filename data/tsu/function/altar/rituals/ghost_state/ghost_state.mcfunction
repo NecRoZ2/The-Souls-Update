@@ -1,2 +1,2 @@
-scoreboard players set @s ghost_time 300
+scoreboard players set @s tsu.ghost_time 300
 gamemode spectator @s
